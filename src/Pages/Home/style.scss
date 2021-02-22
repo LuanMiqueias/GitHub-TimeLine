@@ -8,6 +8,11 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  > .erro {
+    padding: 16px 0;
+    font-weight: $bold;
+    color: rgb(219, 77, 77);
+  }
   > h1 {
     font-weight: $medium;
     color: $color-text-title;
