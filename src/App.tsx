@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route path="/" exact component={Home}/>
-        <Route path="/timeline" component={TimeLine}/>
+        <Route path="/timeline/:username" component={TimeLine}/>
       </Switch>
     </BrowserRouter>
   );
