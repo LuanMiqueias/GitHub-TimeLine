@@ -1,0 +1,28 @@
+$primary-color: #64cddb;
+$shadow-color-contrast: #41dbf0;
+$primary-color-dark: #216872;
+$primary-color-alternative: #1d2b3c;
+$background-card: #868f90;
+$color-text: #ffffff;
+$color-text-title: #151515;
+$color-text-input: #404040;
+$button-card-background: #9cb8bb;
+$border-color: #d4d4d4;
+
+$bold: 600;
+$medium: 500;
+$normal: 400;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: montserrat;
+}
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+  display: block;
+}

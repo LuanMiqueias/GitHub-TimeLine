@@ -1,9 +1,16 @@
 import React from 'react';
-import './App.css';
+import {Route, Switch, BrowserRouter} from 'react-router-dom';
+import Home from './Pages/Home';
+import TimeLine from './Pages/TimeLine';
 
 function App() {
   return (
-    <div></div>
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" exact component={Home}/>
+        <Route path="/timeline" component={TimeLine}/>
+      </Switch>
+    </BrowserRouter>
   );
 }
 
